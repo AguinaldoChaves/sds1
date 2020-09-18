@@ -4,7 +4,7 @@ import axios from 'axios';
 import { RecordsResponse } from './types';
 import {formatDate} from './helpers';
 import Pagination from './Pagination';
-import {Link} from 'react-router-dom';
+import Filters from '../../components/filters'
 
 const BASE_URL = 'http://localhost:8080'
 
@@ -24,13 +24,7 @@ const Records = ()=>{
 
     return (
         <div className="page-container">
-            <div className="filters-container record-actions">
-                <Link to="/charts">
-                    <button className="action-filters">
-                        ver gráfico
-                    </button>
-                </Link>
-            </div>
+            <Filters link="/charts" linkText="Ver Gráfico"/>
             <table className="records-table" cellPadding="0" cellSpacing="0">
                 <thead>
                     <tr>
