@@ -25,7 +25,7 @@ const Home = () =>{
                 <RectButton style={styles.button} onPress={handleOnPress}>
                     <Text style={styles.buttonText}>Coletear Dados</Text>
                     <View style={styles.buttonIcon}>
-                        <Icon name="chevron-right" color="" size={25}/>
+                        <Icon name="chevron-right" color="#FFF" size={25}/>
                     </View>
                 </RectButton>
             </View>
