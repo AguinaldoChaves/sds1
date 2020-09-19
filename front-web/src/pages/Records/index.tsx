@@ -6,7 +6,7 @@ import {formatDate} from './helpers';
 import Pagination from './Pagination';
 import Filters from '../../components/filters'
 
-const BASE_URL = 'https://sds1-aguinaldochaves.herokuapp.com/games';
+const BASE_URL = 'https://sds1-aguinaldochaves.herokuapp.com';
 
 const Records = ()=>{
 

@@ -20,7 +20,7 @@ const initialPieData = {
     labels: [],
     series: []
 }
-const BASE_URL = 'https://sds1-aguinaldochaves.herokuapp.com/games'
+const BASE_URL = 'https://sds1-aguinaldochaves.herokuapp.com'
 
 const Charts = () =>{
 
